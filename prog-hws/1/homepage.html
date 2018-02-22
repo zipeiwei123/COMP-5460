@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <style type = "text/css">
+      canvas{          border: 1px solid black;
+          height: 300;
+          width: 300;
+      }
+      
+  </style>
+  
+</head>
+
+<body>
+    <canvas id="canvas" width="500" height="500" style="border:1px solid #ccc"></canvas>
+
+    <form>
+    <br/>
+    Enter the coordinate (x1, y1)<input type="text" id="x1"/><input type="text" id="y1"/><br/>
+    Enter the coordinate (x2, y2)<input type="text" id="x2"/><input type="text" id="y2"/><br/>
+    <input type="button" value="Create Line" onclick="LineFunction();"/>
+    </form>
+    
+    
+
+    <form>
+    <br/>
+    Enter the coordinate (x1, y1)<input type="text" id="x11"/><input type="text" id="y11"/><br/>
+    Enter the radius: <input type="text" id="radius"/><br/>
+    <input type="button" value="Create Circle" onclick="CircleFunction();"/>
+    </form>
+
+    <form>
+    <br/>
+    Enter the coordinate (x1, y1)<input type="text" id="r_x"/><input type="text" id="r_y"/><br/>
+    Enter the Length and Width:<input type="text" id="r_length"/><input type="text" id="r_width"/><br/>
+    <input type="button" value="Create Rectangle" onclick="RectangleFunction();"/>
+    </form>
+
+    <form>
+    <br/>
+    Enter the coordinate (x1, y1)<input type="text" id="e_x"/><input type="text" id="e_y"/><br/>
+    Enter the Length and Width:<input type="text" id="e_length"/><input type="text" id="e_width"/><br/>
+    <input type="button" value="Create Eclipse" onclick="EclipseFunction();"/>
+    </form>
+
+
+
+    <form>
+    <br/>
+    How many sides ?<input type="text" id="number_of_sides"/><br/>
+    <input type="button" value="Create Polygons" onclick="PolygonFunction();"/>
+    </form>
+
+    <br/>
+    <br/>
+    <br/>
+    </body>
+
+    
+
+    
+    <script type="text/javascript" src = "scipt.js"></script>
+</body>
+</html>

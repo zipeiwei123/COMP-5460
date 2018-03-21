@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question2 & 3</title>
+    <script src="script.js"></script>
+</head>
+<style>
+canvas{
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    border: 1px solid black;
+}
+
+#Wrapper{
+    
+    top:90px;
+    left:10px;
+    padding:15px;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
+.unit {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
+
+<body>
+<canvas id="canvas" width="500" height="500"></canvas>
+
+
+<div id = "Wrapper">
+    
+
+    <div class = "unit">
+        <p>NOTE: Please enter the driver score and click the button. Then Draw and drag anywhere on the Canvas to see the results</p>
+        Please Enter your Driver Score: <br><input type="text" id="driver_score"/><br>
+        <button onclick="draw()" color = "black">Click me</button>
+        <br><br>
+
+
+    </div>
+
+    <div class = "unit">
+        <p>NOTE: Change the setting below and draw shapes on Canvas to see the difference</p>
+        <p><label>Fill the shape: <input id="FillShape" type="checkbox" checked="checked"></label></p>
+        <p><label>Change Line Width: <input id = "LineWidth" type = "range" step = "1" min = "1" max = "9"></label></p>
+        <p><label>Change Fill Color: <input id = "FillColor" type = "color" value = "#B0E0E6"></label></p>
+        <p><label>Change Stoke Color: <input id = "StrokeColor" type = "color" ></label></p>
+        
+
+
+    </div>
+
+
+
+
+</div>
+
+<button type="button" onclick="location.href = 'index.html'"">Go back</button>
+
+</body>
+</html>

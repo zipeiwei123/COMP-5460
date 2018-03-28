@@ -1,5 +1,6 @@
 Name: Zipei Wei
-Project 1: Homework 2
+Project 1: Week 1
+
 
 Mar 28th, 
 

@@ -1,0 +1,6 @@
+Name: Zipei Wei
+Project 1: Week 2
+
+April 4th, 
+
+I created the GUI control panel by importing the dat.GUI library. I was able to rotate, move, and animated the cube via the control Panel. However, I was getting an error when I tried to implemented the Orbit Control library to allow me to rotate the views as I wanted. Thus, Before next week’s due date I hope to finished the orbit control, and created a more complex 3d object before the end of next week. 

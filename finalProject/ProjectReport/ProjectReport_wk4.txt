@@ -1,0 +1,15 @@
+Name: Zipei Wei
+Project 1: Week 3
+
+April 18th, 
+
+	In this week, I started to build the interface from a whole views. The added features are including:
+	
+	1) switch camera between Perspective and Orthographics. The difference between this two camera is: In Orthographics, all the objects look the same size no matter if the objects are far away or not. 
+
+	2)add color changes for ambient light and point color. Ambient light will change the color of the plane where point color will change the color of the objects(Cube…etc)
+
+	3)Create two buttons to add cube and delete cube from the interface. All cubes are  generated once you click addCube. The Cube is randomly generated with different size and different coordinates. And then you can modify the point color via the pointColor. 
+
+	4)I tried to add texture to the plane and objects and is not successful. I will solve this problem before the next submission as well as added manipulation for each object that I created. 
+

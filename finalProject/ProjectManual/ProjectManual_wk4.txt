@@ -1,0 +1,20 @@
+Name: Zipei Wei
+Project 1: Week 4
+
+Description: 
+
+	In this week, I started to build the interface from a whole views. The added features are including:
+	
+	1) switch camera between Perspective and Orthographics by clicking switchCamera.
+
+	2)change plane colors by clicking ambientColor.
+
+	3)add cube in the plane by clicking addCube. Delete cube in the plane by clicking removeCube. outputObjects will output current scene’s children in the console.
+	
+	4)numberofObjects will output current scene.children. Play around with addCube and removeCube to see the number of objects changes. 
+
+	4)scale, position and changeTexture is currently not working. Will be fixed before the next submission.
+
+
+Reference:
+ three.js org

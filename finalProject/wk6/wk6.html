@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>WebGL</title>
+    </head>
+    <style>
+        body{
+            margin: 1;
+            overflow: hidden;
+        }
+
+        #info {
+                position: absolute;
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+    </style>
+    <body>
+
+    <!-- add project description -->
+    <div id="info">User Instructions:<br/>
+            1).Click from Add 2D Elevation: 'Draw_2D_Shape' to draw a 2D shape and press any key on the keyboard to stop drawing <br/>
+            Click from Add 2D Elevation: 'Elevation_3D' to generate the 3D object<br/>
+
+            2)If you want to stop drawing the 2D shape, PRESS any key on the keyboard to exit!!!<br/>
+
+            3)Open from Add 3D Geometry to generate geometries<br/>
+
+            4)Open from Modify 3D Geometries and click 'Select_Object', then click any geometry from the scene to play around with it. <br/>
+
+
+
+
+           
+    </div>
+        
+        <canvas id = "canvas" width = width="500" height="500">
+        <i>This is the first week Project assignment. I created a rotation box object using three.js. More implement continued next week.</i>
+        
+
+        <script src="three.js"></script>
+
+        <script src="SceneExporter.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.1/dat.gui.js"></script>
+        <script src="OrbitControls.js"></script>
+
+        <script src="script.js"></script>
+       <!--  <script src="OrbitControls.js"></script> -->
+       
+
+    </body>
+</html>

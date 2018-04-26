@@ -1,0 +1,60 @@
+Name: Zipei Wei
+Project 1: Week 6
+
+Description: 
+In this week, I added more elements and controls for the webgl. I sorted them according to their functions and usability, I summed up according to each GUI folders:
+
+1)Camera Folder:
+
+	Click on the drop down menu of Camera Folder:
+
+ 	Scrolling:
+ 		Speed: speed controls how fast the camera spins around the scene. 
+ 		Y: y controls the y position of the camera
+ 	Clicking: 
+		switchCamera: switch the camera view of from perspective to Orthographic
+2)Light Folder: 
+
+	
+	Click on the drop down menu of Light Folder:
+
+	Selecting:
+		ambientColor: changing the lighting color of the plane
+		pointColor: changing the light color of all the objects on the plane
+
+3)Add 2D Elevation:
+
+	Click on the drop down menu of Create_Geometries Folder:
+
+	NumberofObjects: This output in the gui text area to show how many objects currently on the scene.
+
+	Draw_2D_Shape: clicking on the ‘Draw_2D_Shape’, you can start to draw on the canvas, For instance: everytime you click on the canvas,  a 2d-3d point will be added on the canvas, if click 2 points, a line will be drawing from point to point. To stop drawing, press any key on the key board.
+
+	Elevation_3D: Once you created a 2D object from the previous step, click the Elevation_3D to ascending the 2D shape to 3D. In this case, you can create as weird 3D geometries as you wanted. 
+
+
+4)Add 3D Geometry:
+
+	create a random size of 3D Cube, 3D Cone, and 3D Cylinder in random position of the canvas by clicking each geometry’s button. 
+
+5)Modifies_3D_Geometrics Folder:
+
+	Select_Object: click on ‘Select_Object’, then click on any 3D objects generate from part 3) and part 4). Then you can move around or change around all the objects in the all the following dropdown choices. 
+
+
+6)Remove_Geometries:
+	
+	remove any geometries that you created in part3) and part4)
+
+
+ 
+
+	
+
+
+ 
+
+
+
+
+

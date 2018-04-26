@@ -1,0 +1,60 @@
+Name: Zipei Wei
+Project 1: Final
+
+Here is the summarize report for each week:
+
+Week 1:
+
+
+In this week, I was only able to explore the basic function and features about Webgl. Luckliy, I was able to learn how to scale, rotate by using the vector that I learned in class. Thus, I would wish to achieve the camera effect and scale/rotation by allowing the user’s input next week. 
+
+
+Week 2:
+
+I created the GUI control panel by importing the dat.GUI library. I was able to rotate, move, and animated the cube via the control Panel. However, I was getting an error when I tried to implemented the Orbit Control library to allow me to rotate the views as I wanted. Thus, Before next week’s due date I hope to finished the orbit control, and created a more complex 3d object before the end of next week. 
+
+Week 3:
+
+I added a few more functions besides the installment from last week, such as switching the camera location, light shadowing, camera rotation, add the grid panel as well as the wireframe function. In the next week, I will started to create a more complex geometry by simply clicking the geometry on the control panel and added multiple geometries. 
+
+Problems Solving and Encountered Problems:
+I was able to play around with gui and all the other features. The problems I encountered is how to dynamically implemented different geometries according to the user’s input. I will accomplish that before the next week assignment. 
+
+Week 4:
+
+
+	In this week, I started to build the interface from a whole views. The added features are including:
+	
+	1) switch camera between Perspective and Orthographics. The difference between this two camera is: In Orthographics, all the objects look the same size no matter if the objects are far away or not. 
+
+	2)add color changes for ambient light and point color. Ambient light will change the color of the plane where point color will change the color of the objects(Cube…etc)
+
+	3)Create two buttons to add cube and delete cube from the interface. All cubes are  generated once you click addCube. The Cube is randomly generated with different size and different coordinates. And then you can modify the point color via the pointColor. 
+
+	4)I tried to add texture to the plane and objects and is not successful. I will solve this problem before the next submission as well as added manipulation for each object that I created. 
+
+
+Week 5:
+
+I added most features of the total project, I summarized all the controls that I had been installed in the couple of weeks as well as added buttons for 2d elevation and create multiple objects. Inside the web, all the objects can modified via gui as well as translate, rotation, texture, wireframe, changing light resources.
+
+Things I have done in this week:
+
+1)create any arbitrary shape and do 3d elevation for the objects
+
+2)create certain 3d geometries (Such as Cube) and delete any above objects freely.
+
+3)All the objects created I am able to change the position, rotation, translation, color, wireframe of the objects. 
+
+4)Set up remove button to remove any object from the scene freely. 
+
+Final Week:
+
+1) Add a window.resize function to resize the canvas 
+dynamically. Thus no need to reload the page.
+
+2) added more 3D geometries besides cube, such as cone, cylinder. Of course you can still draw the 2D elevation geometries as you wanted. 
+
+3)Fixed all the formats and submission forms as well. 
+
+

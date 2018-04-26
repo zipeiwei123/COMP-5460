@@ -1,0 +1,18 @@
+Name: Zipei Wei
+Project 1: Week 5
+
+April 25th, 
+
+I added all most all the features of the project, I summarized all the controls that I had been installed in the couple of weeks as well as added buttons for 2d elevation and create multiple objects. Inside the web, all the objects can modified via gui as well as translate, rotation, texture, wireframe, changing light resources.
+
+Things I have done in this week:
+
+1)create any arbitrary shape and do 3d elevation for the objects
+
+2)create certain 3d geometries (Such as Cube) and delete any above objects freely.
+
+3)All the objects created I am able to change the position, rotation, translation, color, wireframe of the objects. 
+
+4)Set up remove button to remove any object from the scene freely. 
+
+5)Add texture for the plane geometry. 
